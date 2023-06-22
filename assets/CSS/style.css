@@ -930,7 +930,7 @@
   border-radius: 50%;
   background-color: #ff5722;
 }
-.footer ul li: hover {
+.footer ul li:hover {
   background-color: #85005d;
 }
 .footer ul li a {
