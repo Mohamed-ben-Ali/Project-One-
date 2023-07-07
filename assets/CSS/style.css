@@ -31,7 +31,7 @@
   transform: translateX(-50%);
   top: -13px;
 }
-/* Component */
+/* End Component */
 /* Start Navbare */
 .header {
   width: 100%;
@@ -629,6 +629,7 @@
   color: #fff;
   text-transform: uppercase;
   font-size: 25px;
+  margin-bottom: 10px;
 }
 .pricing .pricing-content .item .btn:hover {
   cursor: pointer;
@@ -643,25 +644,24 @@
   background-color: #5833be;
 }
 
-/* .pricing .pricing-content .item .curve {
+
+.pricing .pricing-content .item .curve {
   width: 200px;
   height: 200px;
-  position: absolute;
-
-  left: -75px;
-  bottom: -120px;
-  border-radius: 50%;
+  border-radius: 0% 100% 0% 0%;
+  margin-bottom: -40px;
+  margin-left: -20px;
 }
-/* .pricing .pricing-content .item .curve1 {
+ .pricing .pricing-content .item .curve1 {
   background-color: #ff5602;
 }
 .pricing .pricing-content .item .curve2 {
-  /* background-color:#0099ff; */
-/* } */
-/* .pricing .pricing-content .item .curve3 { */
-/* background-color: #ff5602; 
+  background-color:#0099ff;
 }
-*/
+.pricing .pricing-content .item .curve3 {
+background-color:  #5833be;
+}
+
 /*  End Pricing */
 /* Start Testimonial  */
 .testimonials {
